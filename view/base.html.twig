@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejemplo No. 2 - PHP y MySQL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./view/css/misestilos.css">
+    {% block stylesheets %}{% endblock %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    {% block javascripts %}{% endblock %}
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Campus Jalpa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.php">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?controller=empleado&action=index">Empleados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?controller=producto&action=index">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?controller=categoria&action=index">Categorías</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+{% block content %}
+
+{% endblock %}
+<div id="pie-de-pagina" style="margin-top:150px;">
+    <div class="text-center fixed-bottom" style="margin-bottom:0;">
+        <p>&copy;Derechos Reservados - MITC. Alejandro Ulises López Orozco</p>
+    </div>
+</div>
+</body>
+</html>

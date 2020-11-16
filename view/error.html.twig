@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    <div class="container separacion-de-secciones">
+        <div class="row">
+            <div class="col-12">
+                <h1>Error: </h1>
+                <h3 style="color:red;">{{ mensaje }}</h3>
+                <button onclick="history.back();" class="btn btn-info">Regresar</button>
+            </div>
+        </div>
+    </div>
+{% endblock %}

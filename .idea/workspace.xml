@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a523acab-e0cb-4be8-b9d3-04f0e7c21522" name="Default Changelist" comment="Primer commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/test-1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jo4ewqF6t90mAyNJ5B8ESiRjf5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/empresa/index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a523acab-e0cb-4be8-b9d3-04f0e7c21522" name="Default Changelist" comment="" />
+      <created>1604457209839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604457209839</updated>
+      <workItem from="1604457210912" duration="5226000" />
+      <workItem from="1605540169191" duration="14000" />
+      <workItem from="1605540314230" duration="1028000" />
+      <workItem from="1605541467169" duration="629000" />
+      <workItem from="1605542130599" duration="844000" />
+      <workItem from="1605545507819" duration="114000" />
+      <workItem from="1605547964480" duration="316000" />
+      <workItem from="1605548379494" duration="74000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/test-1" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="714" y="343" key="#Notifications" timestamp="1605548388477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="343" key="#Notifications/0.0.1920.1040/1920.0.1536.824/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605548388477" />
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1605548227953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605548227953" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1605548008756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605548008756" />
+    <state x="727" y="242" key="NewPhpClassDialog" timestamp="1604461953367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="242" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1536.824/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604461953367" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1604462229773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1536.824/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604462229773" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1605548453590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1536.824/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605548453590" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605548184348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605548184348" />
+    <state x="758" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605548158234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="758" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.0.1536.824/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605548158234" />
+  </component>
+</project>

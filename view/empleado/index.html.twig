@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    <!-- mensaje de bienvenida -->
+    <div class="container separacion-de-secciones" >
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Bienvenido a la página de gestión de empleados</h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" sytle="margin-bottom:100px;">
+
+        <div class="row">
+            <div class="col-12 text-right separacion-de-secciones">
+                <a href="index.php?controller=empleado&action=save" class="btn btn-primary" style="margin:5px 0;">Nuevo Empleado</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive separacion-de-secciones">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Id.</th>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th colspan="2">Operaciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for empleado in listaDeEmpleados %}
+                            <tr>
+                                <td>{{ empleado.id }}</td>
+                                <td>{{ empleado.emp_nombre }}</td>
+                                <td>{{ empleado.emp_apellido_paterno }}</td>
+                                <td class="text-right">
+                                    <a href="index.php?controller=empleado&action=delete&id={{ empleado.id }}" class="btn btn-danger">Eliminar</a>
+                                    <a href="index.php?controller=empleado&action=update&id={{ empleado.id }}" class="btn btn-success">Editar</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div><!-- fin table responsive -->
+            </div>
+        </div>
+    </div><!-- fin del container -->
+{% endblock %}

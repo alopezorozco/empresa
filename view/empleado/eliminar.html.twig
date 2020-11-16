@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    <div class="container separacion-de-secciones">
+        <div class="row">
+            <div class="col-12">
+                <h1>Confirmación de eliminación</h1>
+                <p class="separacion-de-secciones">¿Deseas eliminar el siguiente empleado?</p>
+                <ul class="list-group">
+                    <li class="list-group-item"><span style="font-weight: bold">Id:</span> {{ empleadoAEliminar.id }}</li>
+                    <li class="list-group-item"><span style="font-weight: bold">Nombre:</span> {{ empleadoAEliminar.empnombre }}</li>
+                    <li class="list-group-item"><span style="font-weight: bold">Apellido Paterno:</span> {{ empleadoAEliminar.empapellidopaterno }}</li>
+                </ul>
+            </div>
+        </div>
+        <p>{{ mensaje }}</p>
+        <div class="row">
+            <div class="col-12">
+                <a class="btn btn-danger" href="index.php?controller=empleado&action=delete&id={{ empleadoAEliminar.id }}&confirmation=ok" style="margin-top:20px;">Eliminar</a>
+                <a class="btn btn-info" href="index.php?controller=empleado&action=index" style="margin-top:20px;">Cancelar</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    <div class="container separacion-de-secciones">
+        <div class="row">
+            <div class="col-12">
+                <h1>Alta de Empleados</h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="index.php?controller=empleado&action=save" class="needs-validation" method="post" novalidate>
+            <div class="form-group">
+                <label for="uname">Nombre del Empleado:</label>
+                <input type="text" class="form-control" id="enombre" placeholder="Escribe el nombre del empleado" name="empnombre" required>
+                <!-- <input type="textbox" name="Percentage" value="100" readonly="readonly" /> -->
+                <div class="valid-feedback">Correcto</div>
+                <div class="invalid-feedback">Por favor rellena este campo</div>
+            </div>
+            <div class="form-group">
+                <label for="apellidopaterno">Apellido paterno:</label>
+                <input type="text" class="form-control" id="empape" placeholder="Escribe el apellido paterno" name="empape" required>
+                <div class="valid-feedback">Correcto</div>
+                <div class="invalid-feedback">Por favor rellena este campo</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+
+    <script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+{% endblock %}
+
